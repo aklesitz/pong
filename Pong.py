@@ -149,12 +149,12 @@ while a:
 
     # shuts down game
     if right_player == 5:
-        fin.write(f'{p1} wins the game!', align='center',
+        fin.write(f'{p1} wins the game! Good game!', align='center',
                   font=('Courier', 30, 'bold'))
         time.sleep(5)
         a = False
     if left_player == 5:
-        fin.write(f'{p2} wins the game!', align='center',
+        fin.write(f'{p2} wins the game! Good game!', align='center',
                   font=('Courier', 30, 'bold'))
         time.sleep(5)
         a = False
